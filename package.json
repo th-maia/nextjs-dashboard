@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "npm rebuild bcrypt && next build",
+    "build": "pnpm rebuild && next build",
     "dev": "next dev --turbopack",
     "start": "next start"
   },
